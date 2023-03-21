@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Martel+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Hind+Vadodara:wght@300&family=Martel+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul li{
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+
+header{
+    background-color: #e72c63;
+    height: 32px;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.títuloGrande{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subtítuloMediano{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    line-height: 23px;
+    word-spacing: 1px;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.imagenWeb{
+        margin-bottom: 40px;
+        border: solid black;
+        padding: 1px 2px;
+}
+
+.videoUno{
+    align-content: center;
+}
+
+footer{
+    background-color: #a9e36d;
+    margin-top: 40px;
+    padding: 15px 20px;
+    align-content: center;
+}
+
+.logos{
+    padding: 3px 2px;
+    margin: 12px 100px
+}
