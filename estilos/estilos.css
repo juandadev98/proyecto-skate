@@ -16,9 +16,24 @@ ul li{
 
 header{
     background-color: #e72c63;
-    height: 32px;
-    text-align: center;
+    height: 70px;
     word-spacing: 15px;
+
+}
+
+.flexNavbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexMain{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .títuloGrande{
@@ -26,7 +41,7 @@ header{
     font-size: 72px;
     text-align: center;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 55px;
     margin-bottom: 10px;
 }
 
@@ -62,6 +77,12 @@ p{
     align-content: center;
 }
 
+.flexFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 footer{
     background-color: #a9e36d;
     margin-top: 40px;
@@ -70,6 +91,6 @@ footer{
 }
 
 .logos{
-    padding: 3px 2px;
+    padding: 20px 33px;
     margin: 12px 100px
 }
